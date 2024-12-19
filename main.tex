@@ -1,0 +1,72 @@
+\documentclass[12pt,twoside,openany,a4paper,final]{book}
+
+\usepackage{cmap}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[russian,english]{babel}
+
+\usepackage{indentfirst}
+\usepackage{misccorr}
+\usepackage[font=small, labelsep=period]{caption}
+\usepackage{cite}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{nicefrac}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
+
+\usepackage{paracol}
+\setlength{\columnseprule}{0.5pt} % толщина разделительной линии (закомментировать если линия не нужна)
+\colseprulecolor{black}  % цвет разделительной линии 
+ 
+\usepackage{wrapfig}
+\usepackage{fancybox}
+\usepackage{multirow}
+
+\usepackage[pdftex, left=1in, right=1in, top=1in, bottom=2cm]{geometry}
+
+\usepackage{mycommon}
+\usepackage{style}
+
+\newcommand{\issuemark}{}
+\setcounter{MaxMatrixCols}{35}
+
+\sloppy
+
+\begin{document}
+% \fontsize{12}{16pt}\selectfont
+
+\lstset{
+   showlines=true
+}
+
+
+\selectlanguage{russian}
+
+\author[]{Д.\,Ю.}{Боборухин}
+
+%\affil[1]{Факультет радиотехники и компьютерных технологий}
+% \affil[2]{Место работы 2}
+
+\title{Атаки по времени и методы защиты от них}
+
+\inputarticle[]{familia}{Д.\,Ю. Боборухин}
+
+
+\selectlanguage{russian}
+
+\include{authors}
+
+\include{links}
+
+
+\end{document}
